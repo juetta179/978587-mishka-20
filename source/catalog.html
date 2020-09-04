@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru">
 <head>
-  <meta charset="utf-8"/>
+  <meta charset="utf-8">
   <title>HTML Academy: Мишка</title>
 </head>
-
-<body class="page-body">
+<body>
 <header class="page-header page-header--index">
   <nav class="page-navigation">
     <ul class="list page-navigation__list">
       <li class="page-navigation__item">
-        <a  class="page-navigation__link logo logo--header" aria-label="Логотип Mishka">
+        <a href="index.html" class="page-navigation__link logo logo--header" aria-label="Логотип Mishka">
           <svg class="logo__svg logo__svg--header" version="1.1"  xmlns="http://www.w3.org/2000/svg"
                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="85.589px" height="35.034px"
                viewbox="32.458 20.216 85.589 35.034" enable-background="new
@@ -86,10 +85,10 @@
         </a>
       </li>
       <li class="page-navigation__item">
-        <a href="catalog.html" class="link link--big page-navigation__link"> Каталог товаров </a>
+        <a  class="link link--big page-navigation__link"> Каталог товаров </a>
       </li>
       <li class="page-navigation__item">
-        <a  href="form.html" class="link link--big page-navigation__link"> Вязание на заказ </a>
+        <a href="form.html"  class="link link--big page-navigation__link"> Вязание на заказ </a>
       </li>
       <li class="page-navigation__item">
         <a href="#" class="link link--big link--card link--card-search page-navigation__link">Поиск по сайту</a>
@@ -113,114 +112,42 @@
   <button class="button button-close" type="button" aria-label="Закрыть"></button>
 </header>
 <main class="page-main">
-  <h1 class="page-title">Милые штуки ручной работы для дома</h1>
-  <section class="promo">
-    <h2 class="visually-hidden promo-title">Акции</h2>
-    <ul class="promo-nav">
-      <li class="promo-nav__item green-bnt green-bnt--left">
-        <a href="#" class="link green-bnt__link">Предметы интерьера</a>
+  <h1 class="page-title">Каталог товаров</h1>
+  <section class="catalog">
+    <h2 class="visually-hidden">Список товаров</h2>
+    <ul class="catalog-list">
+      <li class="catalog-list-item">
+        <img src="https://via.placeholder.com/260x315" alt="Вязанный зайчик" class="catalog-list-item__image">
+        <h3 class="catalog-list-item__title item-elements">Зайчик-попрыгайчик</h3>
+        <p class="text catalog-list-item__description">Рост 30 см, вес 200 г</p>
+        <span class="text catalog-list-item__price">1 200 руб.</span>
       </li>
-      <li class="promo-nav__item green-bnt green-bnt--left">
-        <a href="#" class="link green-bnt__link">Детские игрушки</a>
+      <li class="catalog-list-item">
+        <img src="https://via.placeholder.com/260x315" alt="Корзинка для белья" class="catalog-list-item__image">
+        <h3 class="catalog-list-item__title item-elements">Корзинка для белья</h3>
+        <p class="text catalog-list-item__description">Диаметр 15 см, высота 10 см</p>
+        <span class="text catalog-list-item__price">690 руб.</span>
       </li>
-    </ul>
-  </section>
-  <section class="action">
-    <h2 class="visually-hidden action__title">Товар недели</h2>
-    <ul class="action-list">
-      <li class="action-list__item">
-        <h3 class="action-list__title">Вязаные корзинки</h3>
-        <span class="action-list__lable">Товар недели</span>
-        <p class="text action-list__description">
-          Экологически чистая пряжа, ручная работа. Доступны в шести
-          расцветках, и трех размерах.
-        </p>
-        <table class="table action-list__table">
-          <tr class="table__row">
-            <th class="table__header">Цвет:</th>
-            <th class="table__header">Диаметр:</th>
-            <th class="table__header">Высота:</th>
-          </tr>
-          <tr class="table__row">
-            <td class="table__data">«Тиффани»/серый</td>
-            <td class="table__data">25 см</td>
-            <td class="table__data">15 см</td>
-          </tr>
-        </table>
-        <img class="action-list__image" src="https://via.placeholder.com/260x315" alt="Вязанные корзиночки"/>
-        <span class="action-list__cost">Цена: 990 руб.</span>
-        <a href="#" class="ghost-btn action-list__ghost-btn">Заказать</a>
+      <li class="catalog-list-item">
+        <img src="https://via.placeholder.com/260x315" alt="Большая корзинка для игрушек"
+             class="catalog-list-item__image">
+        <h3 class="catalog-list-item__title item-elements">Большая корзинка для игрушек</h3>
+        <p class="text catalog-list-item__description">Диаметр 30 см, высота 30 см</p>
+        <span class="text catalog-list-item__price">1 500 руб.</span>
       </li>
     </ul>
   </section>
-  <section class="about-us">
-    <h3 class="section-title">Коротко о нас:</h3>
-    <ul class="about-us-list">
-      <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Экологически чистые материалы </p>
-      </li>
-      <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Скандинавский стиль по российской цене </p>
-      </li>
-      <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Увеличивает лайки на фотографиях </p>
-      </li>
-      <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Связано вручную с любовью и умилением </p>
-      </li>
-      <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Поддержка отечественного производителя</p>
-      </li>
-      <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Поставляется в подарочной упаковке </p>
-      </li>
-    </ul>
-  </section>
-  <section class="comment">
-    <h2 class="section-title">Отзывы</h2>
-    <ul class="comment-list">
-      <li class="comment-list__item">
-        <p class="text comment-list__text">
-          Я молодая мама, но всё равно фотографии не набирали и близко
-          такого количества лайков, как у популярных инстамамочек. В
-          отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои
-          фотографии сразу стали более стильными, а также набирают больше
-          лайков!
-        </p>
-        <div class="comment-list__author">
-          <p class="text comment-list__author-text">Анастасия Красильникова</p>
-          <a href="https://www.instagram.com/misssssiskras/" class="comment-list__author-link">
-            @misssssiskras
-          </a>
-        </div>
-        <a href="#" class="ghost-btn comment__ghost-btn">Написать</a>
-      </li>
-    </ul>
-    <div class="comment-nav">
-      <button class="ghost-btn comment-nav__ghost-btn comment-nav__ghost-btn--left" type="button"
-              aria-label="Предыдущий отзыв"></button>
-      <button class="ghost-btn comment-nav__ghost-btn comment-nav__ghost-btn--right" type="button"
-              aria-label="Следующий отзыв"></button>
-    </div>
-  </section>
-  <section class="contact">
-    <h2 class="section-title">Контакты</h2>
-    <div class="contact-text-wrapper">
-      <p class="text contact__text">e-mail:</p>
-      <p class="text contact__text mail-link">info@mimimishkashop.ru</p>
-      <p class="text contact__text">адрес:</p>
-      <p class="text contact__text"> г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101 </p>
-    </div>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1599229520883!5m2!1sru!2sru"
-      width="600" height="450"  style="border: 0;" allowfullscreen="" aria-hidden="false"
-      tabindex="0"></iframe>
-    <a href="#" class="ghost-btn contact__ghost-btn">Напишите нам</a>
+  <section class="video">
+    <h2 class="section-title video__section-title">Процесс производства</h2>
+    <iframe class="video__frame" width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="text video__text">По просьбам наших любимых фолловеров мы сняли для вас подробное</p>
+    <a href="#" class="ghost-btn video__ghost-btn">Сделать заказ</a>
   </section>
 </main>
 <footer class="page-footer container">
   <a class="page-footer__logo logo logo--footer" aria-label="Логотип Mishka">
-    <svg class="logo__svg logo__svg--footer" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    <svg class="logo__svg logo__svg--footer" version="1.1"  xmlns="http://www.w3.org/2000/svg"
          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="85.589px" height="35.034px"
          viewbox="32.458 20.216 85.589 35.034" enable-background="new 32.458 20.216 85.589 35.034" xml:space="preserve">
                     <g>
@@ -315,3 +242,5 @@
 </footer>
 </body>
 </html>
+
+
