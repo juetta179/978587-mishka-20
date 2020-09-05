@@ -45,11 +45,23 @@
       мы свяжемся с вами, чтобы уточнить детали. </p>
     <fieldset class="fieldset add-to-card__fieldset">
       <legend class="legend add-to-card__legend">Тип</legend>
-      <input class="radio-input" type="radio" name="radio-type" id="radio-type-interior-accessory"
-             value="interior-accessory">
-      <label class="label label--radio" for="radio-type-interior-accessory">Аксессуар для интерьера</label>
-      <input class="radio-input" type="radio" name="radio-type" id="radio-type-interior-toy" value="toy">
-      <label class="label label--radio" for="radio-type-interior-toy">Детская игрушка</label>
+      <div class="field-radio">
+        <div class="field-radio__input-wrap">
+          <label class="field-radio__name">
+            <input class="field-radio__input" type="radio" name="radio-type" value="interior-accessory"
+                   checked="checked">
+            <span class="field-radio__name-text">Аксессуар для интерьера</span>
+          </label>
+        </div>
+      </div>
+      <div class="field-radio">
+        <div class="field-radio__input-wrap">
+          <label class="field-radio__name">
+            <input class="field-radio__input" type="radio" name="radio-type" value="toy" checked="checked">
+            <span class="field-radio__name-text">Детская игрушка</span>
+          </label>
+        </div>
+      </div>
     </fieldset>
     <fieldset class="fieldset add-to-card__fieldset">
       <legend class="legend add-to-card__legend">Тип</legend>
