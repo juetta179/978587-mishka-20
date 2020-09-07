@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Мишка</title>
+</head>
+<body>
+<header class="page-header page-header--index">
+  <nav class="page-navigation">
+    <a href="index.html" class="page-navigation__logo logo logo--header" aria-label="Логотип Mishka">
+      <img class="logo__image" src="https://via.placeholder.com/100x50" alt="Логотип Мишка">
+    </a>
+    <ul class="page-navigation__list">
+      <li class="page-navigation__item">
+        <a class="link link--big page-navigation__link"> Каталог товаров </a>
+      </li>
+      <li class="page-navigation__item">
+        <a href="form.html" class="link link--big page-navigation__link"> Вязание на заказ </a>
+      </li>
+      <li class="page-navigation__item">
+        <a href="#" class="link  link--card link--card-search page-navigation__link">Поиск по сайту</a>
+      </li>
+      <li class="page-navigation__item">
+        <a href="#" class="link  link--card link--card-cart page-navigation__link"> Корзина: пока пуста </a>
+      </li>
+    </ul>
+    <ul class="nav-additionally">
+      <li class="nav-additionally__item nav-additionally__item--new">
+        <a href="#" class="nav-additionally__link link ">Новые поступления</a>
+      </li>
+      <li class="nav-additionally__item nav-additionally__item--seil">
+        <a href="#" class="nav-additionally__link link ">Распродажа</a>
+      </li>
+      <li class="nav-additionally__item nav-additionally__item--delivery">
+        <a href="#" class="nav-additionally__link link ">Бесплатная доставка по России</a>
+      </li>
+    </ul>
+  </nav>
+  <button class="button button-close" type="button" aria-label="Закрыть"></button>
+</header>
+<main class="page-main">
+  <h1 class="page-title">Каталог товаров</h1>
+  <section class="catalog">
+    <h2 class="visually-hidden">Список товаров</h2>
+    <ul class="catalog-list">
+      <li class="catalog-list__item">
+        <div class="product">
+          <img src="https://via.placeholder.com/260x315" alt="Вязанный зайчик" class="product__image">
+          <h3 class="product__title item-elements">Зайчик-попрыгайчик</h3>
+          <p class="text product__description">Рост 30 см, вес 200 г</p>
+          <span class="text product__price">1 200 руб.</span>
+        </div>
+      </li>
+      <li class="catalog-list__item">
+        <div class="product">
+          <img src="https://via.placeholder.com/260x315" alt="Корзинка для белья" class="product__image">
+          <h3 class="product__title item-elements">Корзинка для белья</h3>
+          <p class="text product__description">Диаметр 15 см, высота 10 см</p>
+          <span class="text product__price">690 руб.</span>
+        </div>
+      </li>
+      <li class="catalog-list__item">
+        <div class="product">
+          <img src="https://via.placeholder.com/260x315" alt="Большая корзинка для игрушек" class="product__image">
+          <h3 class="product__title item-elements">Большая корзинка для игрушек</h3>
+          <p class="text product__description">Диаметр 30 см, высота 30 см</p>
+        </div>
+        <span class="text product__price">1 500 руб.</span>
+      </li>
+    </ul>
+  </section>
+  <section class="video">
+    <h2 class="section-title video__section-title">Процесс производства</h2>
+    <iframe class="video__frame" width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="text video__text">По просьбам наших любимых фолловеров мы сняли для вас подробное</p>
+    <a href="#" class="ghost-btn video__ghost-btn">Сделать заказ</a>
+  </section>
+</main>
+<footer class="page-footer container">
+  <a href="index.html" class="page-footer__logo logo logo--footer" aria-label="Логотип Mishka">
+    <img class="logo__image" src="https://via.placeholder.com/100x50" alt="Логотип Мишка">
+  </a>
+  <ul class="social-list page-footer__social-list">
+    <li class="social-list__item">
+      <a class="social-list__link social-list__link--instagram" href="https://www.instagram.com/htmlacademy/?hl=ru"
+          aria-label="HTML Академия в Instagram"></a>
+    </li>
+    <li class="social-list__item">
+      <a class="social-list__link social-list__link--facebook" href="https://www.facebook.com/htmlacademy/"
+          aria-label="HTML Академия в Facebook"></a>
+    </li>
+    <li class="social-list__item">
+      <a class="social-list__link social-list__link--twitter" href="https://twitter.com/htmlacademy_ru?lang=ru"
+          aria-label="HTML Академия в Twitter"></a>
+    </li>
+  </ul>
+  <div class="copyright page-footer__copyright">
+    <p class="text copyright__text">Разработано</p>
+    <a href="https://htmlacademy.ru/intensive/htmlcss" class="copyright__logo-link">
+      <img class="copyright__logo" src="img/logo-htmlacademy.svg" alt="Логотип htmlacademy" width="110" height="40"/>
+    </a>
+  </div>
+</footer>
+</body>
+</html>

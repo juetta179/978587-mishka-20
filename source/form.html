@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Мишка</title>
+</head>
+<body>
+<header class="page-header page-header--index">
+  <nav class="page-navigation">
+    <a href="index.html" class="page-navigation__logo logo logo--header" aria-label="Логотип Mishka">
+      <img class="logo__image" src="https://via.placeholder.com/100x50" alt="Логотип Мишка">
+    </a>
+    <ul class="page-navigation__list">
+      <li class="page-navigation__item">
+        <a href="catalog.html" class="link link--big page-navigation__link">Каталог товаров</a>
+      </li>
+      <li class="page-navigation__item">
+        <a class="link link--big page-navigation__link">Вязание на заказ</a>
+      </li>
+      <li class="page-navigation__item">
+        <a href="#" class="link  link--card link--card-search page-navigation__link">Поиск по сайту</a>
+      </li>
+      <li class="page-navigation__item">
+        <a href="#" class="link  link--card link--card-cart page-navigation__link">Корзина: пока пуста</a>
+      </li>
+    </ul>
+    <ul class="nav-additionally">
+      <li class="nav-additionally__item nav-additionally__item--new">
+        <a href="#" class="nav-additionally__link link ">Новые поступления</a>
+      </li>
+      <li class="nav-additionally__item nav-additionally__item--seil">
+        <a href="#" class="nav-additionally__link link ">Распродажа</a>
+      </li>
+      <li class="nav-additionally__item nav-additionally__item--delivery">
+        <a href="#" class="nav-additionally__link link ">Бесплатная доставка по России</a>
+      </li>
+    </ul>
+  </nav>
+  <button class="button button-close" type="button" aria-label="Закрыть"></button>
+</header>
+<main class="page-main">
+  <h1 class="page-title">Вязание на заказ</h1>
+  <form class="form add-to-card" action="https://echo.htmlacademy.ru" method="post">
+    <p class="text add-to-card__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и
+      мы свяжемся с вами, чтобы уточнить детали. </p>
+    <fieldset class="fieldset add-to-card__fieldset">
+      <legend class="legend add-to-card__legend">Тип</legend>
+      <div class="field-radio">
+        <div class="field-radio__input-wrap">
+          <label class="field-radio__name">
+            <input class="field-radio__input" type="radio" name="radio-type" value="interior-accessory"
+                    checked="checked">
+            <span class="field-radio__name-text">Аксессуар для интерьера</span>
+          </label>
+        </div>
+      </div>
+      <div class="field-radio">
+        <div class="field-radio__input-wrap">
+          <label class="field-radio__name">
+            <input class="field-radio__input" type="radio" name="radio-type" value="toy" checked="checked">
+            <span class="field-radio__name-text">Детская игрушка</span>
+          </label>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset class="fieldset add-to-card__fieldset">
+      <legend class="legend add-to-card__legend">Тип</legend>
+      <div class="field-checkbox">
+        <div class="field-checkbox__input-wrap">
+          <label class="field-checkbox__name">
+            <input class="field-checkbox__input" type="checkbox" name="color-white" checked="checked">
+            <span class="field-checkbox__name-text">Белый</span>
+          </label>
+        </div>
+      </div>
+      <div class="field-checkbox">
+        <div class="field-checkbox__input-wrap">
+          <label class="field-checkbox__name">
+            <input class="field-checkbox__input" type="checkbox" name="color-gray">
+            <span class="field-checkbox__name-text">Серый</span>
+          </label>
+        </div>
+      </div>
+      <div class="field-checkbox">
+        <div class="field-checkbox__input-wrap">
+          <label class="field-checkbox__name">
+            <input class="field-checkbox__input" type="checkbox" name="color-tiffany">
+            <span class="field-checkbox__name-text">«Тиффани»</span>
+          </label>
+        </div>
+      </div>
+      <div class="field-checkbox">
+        <div class="field-checkbox__input-wrap">
+          <label class="field-checkbox__name">
+            <input class="field-checkbox__input" type="checkbox" name="color-black">
+            <span class="field-checkbox__name-text">Черный</span>
+          </label>
+        </div>
+      </div>
+      <div class="field-checkbox">
+        <div class="field-checkbox__input-wrap">
+          <label class="field-checkbox__name">
+            <input class="field-checkbox__input" type="checkbox" name="color-pink">
+            <span class="field-checkbox__name-text">Розовый</span>
+          </label>
+        </div>
+      </div>
+      <div class="field-checkbox">
+        <div class="field-checkbox__input-wrap">
+          <label class="field-checkbox__name">
+            <input class="field-checkbox__input" type="checkbox" name="color-orange">
+            <span class="field-checkbox__name-text">Оранжевый</span>
+          </label>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset class="fieldset add-to-card__fieldset">
+      <legend class="legend add-to-card__legend">ФИО</legend>
+      <label class="field-text--input">
+        <span class="field-text__name">Имя:</span>
+        <span class="field-text__input-wrap">
+          <input class="field-text__input" type="text" placeholder="Введите ваше имя*" name="name" required>
+        </span>
+      </label>
+      <label class="label label--input">
+        <span class="field-text__name">Фамилия:</span>
+        <span class="field-text__input-wrap">
+          <input class="text-input" type="text" placeholder="Укажите фамилию*" name="last-name" required>
+        </span>
+      </label>
+      <label class="label label--input">
+        <span class="field-text__name">Отчество:</span>
+        <span class="field-text__input-wrap">
+          <input class="text-input" type="text" placeholder="Отчество, если желаете" name="middle-name">
+        </span>
+      </label>
+    </fieldset>
+    <fieldset class="fieldset add-to-card__fieldset">
+      <legend class="visually-hidden">Ваши контакты</legend>
+      <label class="legend add-to-card__legend">
+        <span class="field-text__name">Тел</span>
+        <span class="field-text__input-wrap">
+          <input class="text-input text-input--tel" type="tel" placeholder="+7 ХХХ ХХХ ХХ ХХ*" name="tel" required>
+        </span>
+      </label>
+      <label class="legend add-to-card__legend">
+        <span class="field-text__name">E-mail</span>
+        <span class="field-text__input-wrap">
+        <input class="text-input text-input--email" type="email" placeholder="Ваш Email*" name="email"
+                required>
+        </span>
+      </label>
+    </fieldset>
+    <fieldset class="fieldset add-to-card__fieldset">
+      <legend class="legend add-to-card__legend">Доп</legend>
+      <span class="field-text__input-wrap">
+        <textarea class="text-input" placeholder="Опишите все ваши пожелания к заказу"
+                  name="comment" rows="10"></textarea>
+      </span>
+    </fieldset>
+    <div class="add-to-card__wrapper">
+      <button type="submit" class="ghost-btn add-to-card__ghost-btn">Добавить</button>
+      <p class="text add-to-card__text">*Поля обязательные для ввода</p>
+    </div>
+  </form>
+</main>
+<footer class="page-footer container">
+  <a href="index.html" class="page-footer__logo logo logo--footer" aria-label="Логотип Mishka">
+    <img class="logo__image" src="https://via.placeholder.com/100x50" alt="Логотип Мишка">
+  </a>
+  <ul class="social-list page-footer__social-list">
+    <li class="social-list__item">
+      <a class="social-list__link social-list__link--instagram" href="https://www.instagram.com/htmlacademy/?hl=ru"
+          aria-label="HTML Академия в Instagram"></a>
+    </li>
+    <li class="social-list__item">
+      <a class="social-list__link social-list__link--facebook" href="https://www.facebook.com/htmlacademy/"
+          aria-label="HTML Академия в Facebook"></a>
+    </li>
+    <li class="social-list__item">
+      <a class="social-list__link social-list__link--twitter" href="https://twitter.com/htmlacademy_ru?lang=ru"
+          aria-label="HTML Академия в Twitter"></a>
+    </li>
+  </ul>
+  <div class="copyright page-footer__copyright">
+    <p class="text copyright__text">Разработано</p>
+    <a href="https://htmlacademy.ru/intensive/htmlcss" class="copyright__logo-link">
+      <img class="copyright__logo" src="img/logo-htmlacademy.svg" alt="Логотип htmlacademy" width="110" height="40"/>
+    </a>
+  </div>
+</footer>
+</body>
+</html>
