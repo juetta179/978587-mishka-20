@@ -1,0 +1,14 @@
+.fieldset {
+  border: none;
+
+
+
+}
+
+.fieldset__legend {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  color: $color-text-accent;
+  text-transform: uppercase;
+}

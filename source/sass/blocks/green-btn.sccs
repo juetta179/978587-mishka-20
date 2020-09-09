@@ -1,0 +1,36 @@
+.green-btn__link {
+  @include link;
+  color: $color-text-negative;
+
+  &:hover {
+    color: $color-text-negative;
+  }
+
+  &:active {
+    color: $color-text-negative;
+  }
+}
+
+.green-bnt--left {
+  background-color: #63d1bb;
+
+  &:hover {
+    background-color: #59d5bc;
+  }
+
+  &:active {
+    background-color: #59d5bc;
+  }
+}
+
+.green-bnt--right {
+  background-color: #56c3b2;
+
+  &:hover {
+    background-color: #46c1ae;
+  }
+
+  &:active {
+    background-color: #46c1ae;
+  }
+}

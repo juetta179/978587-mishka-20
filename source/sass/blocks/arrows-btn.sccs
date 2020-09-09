@@ -1,0 +1,17 @@
+.arrows-btn {
+  @include link;
+  color: $color-text-secondary;
+  display: block;
+  border: 1px solid $color-secondary-1;
+  box-sizing: border-box;
+
+  &:hover {
+    opacity: 0.6;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+  &--left {}
+  &--right {}
+}
+

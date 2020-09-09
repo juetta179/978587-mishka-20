@@ -1,0 +1,26 @@
+.ghost-btn {
+  @include link;
+  color: $color-text-secondary;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  border: 2px solid $color-text-secondary;
+  box-sizing: border-box;
+  background-color: white;
+
+  &:hover {
+    color: $color-text-negative;
+    background-color: $color-text-secondary;
+  }
+
+  &:active {
+    color: $color-text-negative;
+    background-color: rgba($color-text-secondary, 30%);
+  }
+
+}

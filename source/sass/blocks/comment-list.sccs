@@ -1,0 +1,16 @@
+.comment-list {
+  @include list;
+}
+.comment-list__author-text {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: $color-text-primary;
+}
+.comment-list__author-link {
+  @include mail-link;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 300;
+  text-decoration: none;
+}
