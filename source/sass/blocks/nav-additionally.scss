@@ -1,12 +1,13 @@
 .nav-additionally {
   @include list;
 }
+
 .nav-additionally__link {
   @include link;
   font-size: 15px;
   line-height: 24px;
+
   &--delivery {
     font-weight: 300;
   }
 }
-

@@ -14,6 +14,7 @@
   border-bottom: 2px solid $color-text-primary;
   color: rgba($color-text-primary, 30%);
   box-sizing: border-box;
+
   &:hover {
     border-bottom: 2px solid $color-text-accent;
   }
@@ -33,7 +34,6 @@
   }
 
   &:focus {
-    border-color: $color-text-accent
+    border-color: $color-text-accent;
   }
 }
-

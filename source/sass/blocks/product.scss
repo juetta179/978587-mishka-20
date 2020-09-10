@@ -1,21 +1,17 @@
-.product {}
-.product__title {}
-.product__image {}
-.roduct__description {
+.product__description {
   font-weight: 300;
   font-size: 13px;
   line-height: 30px;
 }
+
 .product__price {
   font-weight: 700;
   font-size: 15px;
   line-height: 24px;
-
 }
-.product__image-link {}
+
 .product__title-link {
   @include link;
   font-size: 17px;
   line-height: 24px;
 }
-
