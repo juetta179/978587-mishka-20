@@ -5,7 +5,7 @@
 }
 
 @mixin link {
-  font-family: "opensans", "arial", sans-serif;
+  font-family: $font-1;
   font-style: normal;
   font-weight: 700;
   text-decoration: none;
