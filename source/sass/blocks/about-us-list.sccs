@@ -1,0 +1,10 @@
+.about-us-list {
+  @include list;
+
+}
+.about-us-list__item {}
+.about-us-list__text {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+}

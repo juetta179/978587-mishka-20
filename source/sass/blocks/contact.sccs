@@ -1,0 +1,6 @@
+.contact__text {
+  &--mail-link {
+    @include mail-link;
+  }
+}
+

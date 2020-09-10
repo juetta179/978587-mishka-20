@@ -1,0 +1,38 @@
+@mixin list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin link {
+  font-family: "opensans", "arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  color: $color-text-primary;
+
+  &:hover {
+    color: rgba($color-text-primary, 0.6%);
+  }
+
+  &:active {
+    color: rgba($color-text-primary, 0.3%);
+  }
+}
+
+@mixin mail-link {
+  text-decoration: underline;
+  color: $color-text-secondary;
+  text-decoration-color: $color-text-accent;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: $color-text-accent;
+    color: $color-text-accent;
+  }
+
+  &:active {
+    text-decoration: none;
+    color: $color-text-accent;
+  }
+}

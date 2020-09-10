@@ -1,0 +1,4 @@
+.mail-link {
+  @include mail-link;
+  }
+

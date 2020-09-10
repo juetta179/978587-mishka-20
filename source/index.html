@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <title>HTML Academy: Мишка</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page-body">
@@ -13,27 +14,29 @@
     </a>
     <ul class="page-navigation__list">
       <li class="page-navigation__item">
-        <a href="catalog.html" class="link link--big page-navigation__link"> Каталог товаров </a>
+        <a href="catalog.html" class="page-navigation__link">Каталог товаров</a>
       </li>
       <li class="page-navigation__item">
-        <a href="form.html" class="link link--big page-navigation__link"> Вязание на заказ </a>
+        <a href="form.html" class="page-navigation__link">Вязание на заказ</a>
       </li>
       <li class="page-navigation__item">
-        <a href="#" class="link  link--card link--card-search page-navigation__link">Поиск по сайту</a>
+        <a href="#" class="page-navigation__link  page-navigation__link--card page-navigation__link--card-search">Поиск
+          по сайту</a>
       </li>
       <li class="page-navigation__item">
-        <a href="#" class="link  link--card link--card-cart page-navigation__link"> Корзина: пока пуста </a>
+        <a href="#" class="page-navigation__link page-navigation__link--card page-navigation__link--card-card">Корзина:
+          пока пуста</a>
       </li>
     </ul>
     <ul class="nav-additionally">
       <li class="nav-additionally__item nav-additionally__item--new">
-        <a href="#" class="nav-additionally__link link ">Новые поступления</a>
+        <a href="#" class="nav-additionally__link">Новые поступления</a>
       </li>
       <li class="nav-additionally__item nav-additionally__item--seil">
-        <a href="#" class="nav-additionally__link link ">Распродажа</a>
+        <a href="#" class="nav-additionally__link">Распродажа</a>
       </li>
       <li class="nav-additionally__item nav-additionally__item--delivery">
-        <a href="#" class="nav-additionally__link link ">Бесплатная доставка по России</a>
+        <a href="#" class="nav-additionally__link  nav-additionally__link--delivery">Бесплатная доставка по России</a>
       </li>
     </ul>
   </nav>
@@ -42,13 +45,13 @@
 <main class="page-main">
   <h1 class="page-title">Милые штуки ручной работы для дома</h1>
   <section class="promo">
-    <h2 class="visually-hidden promo-title">Акции</h2>
+    <h2 class="visually-hidden promo__title">Акции</h2>
     <ul class="promo-nav">
-      <li class="promo-nav__item green-bnt green-bnt--left">
-        <a href="#" class="link green-bnt__link">Предметы интерьера</a>
+      <li class="promo-nav__item green-btn green-bnt--left">
+        <a href="#" class="green-btn__link">Предметы интерьера</a>
       </li>
-      <li class="promo-nav__item green-bnt green-bnt--left">
-        <a href="#" class="link green-bnt__link">Детские игрушки</a>
+      <li class="promo-nav__item green-btn green-bnt--right">
+        <a href="#" class="green-btn__link">Детские игрушки</a>
       </li>
     </ul>
   </section>
@@ -56,21 +59,23 @@
     <h2 class="visually-hidden action__title">Товар недели</h2>
     <ul class="action-list">
       <li class="action-list__item">
-        <h3 class="action-list__title">Вязаные корзинки</h3>
-        <span class="action-list__lable">Товар недели</span>
-        <p class="text action-list__description">
+        <h3 class="section-title action-list__title ">Вязаные корзинки</h3>
+        <span class="action-list__label">Товар недели</span>
+        <p class="action-list__description">
           Экологически чистая пряжа, ручная работа. Доступны в шести
           расцветках, и трех размерах.
         </p>
         <table class="table action-list__table">
           <tr class="table__row">
             <th class="table__header">Цвет:</th>
-            <th class="table__header">Диаметр:</th>
-            <th class="table__header">Высота:</th>
+            <td class="table__data">«Тиффани»/серый</td>
           </tr>
           <tr class="table__row">
-            <td class="table__data">«Тиффани»/серый</td>
+            <th class="table__header">Диаметр:</th>
             <td class="table__data">25 см</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__header">Высота:</th>
             <td class="table__data">15 см</td>
           </tr>
         </table>
@@ -84,22 +89,22 @@
     <h3 class="section-title">Коротко о нас:</h3>
     <ul class="about-us-list">
       <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Экологически чистые материалы </p>
+        <p class="about-us-list__text"> Экологически чистые материалы </p>
       </li>
       <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Скандинавский стиль по российской цене </p>
+        <p class="about-us-list__text"> Скандинавский стиль по российской цене </p>
       </li>
       <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Увеличивает лайки на фотографиях </p>
+        <p class="about-us-list__text"> Увеличивает лайки на фотографиях </p>
       </li>
       <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Связано вручную с любовью и умилением </p>
+        <p class="about-us-list__text"> Связано вручную с любовью и умилением </p>
       </li>
       <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Поддержка отечественного производителя</p>
+        <p class="about-us-list__text"> Поддержка отечественного производителя</p>
       </li>
       <li class="about-us-list__item">
-        <p class="text about-us-list__text"> Поставляется в подарочной упаковке </p>
+        <p class="about-us-list__text"> Поставляется в подарочной упаковке </p>
       </li>
     </ul>
   </section>
@@ -107,7 +112,7 @@
     <h2 class="section-title">Отзывы</h2>
     <ul class="comment-list">
       <li class="comment-list__item">
-        <p class="text comment-list__text">
+        <p class="comment-list__text">
           Я молодая мама, но всё равно фотографии не набирали и близко
           такого количества лайков, как у популярных инстамамочек. В
           отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои
@@ -115,7 +120,7 @@
           лайков!
         </p>
         <div class="comment-list__author">
-          <p class="text comment-list__author-text">Анастасия Красильникова</p>
+          <p class="comment-list__author-text">Анастасия Красильникова</p>
           <a href="https://www.instagram.com/misssssiskras/" class="comment-list__author-link">
             @misssssiskras
           </a>
@@ -124,19 +129,19 @@
       </li>
     </ul>
     <div class="comment-nav">
-      <button class="ghost-btn comment-nav__ghost-btn comment-nav__ghost-btn--left" type="button"
-              aria-label="Предыдущий отзыв"></button>
-      <button class="ghost-btn comment-nav__ghost-btn comment-nav__ghost-btn--right" type="button"
-              aria-label="Следующий отзыв"></button>
+      <button class="arrows-btn  arrows-btn--left comment-nav__arrows-btn" type="button"
+        aria-label="Предыдущий отзыв"></button>
+      <button class="arrows-btn  arrows-btn--right comment-nav__arrows-btn" type="button"
+        aria-label="Следующий отзыв"></button>
     </div>
   </section>
   <section class="contact">
     <h2 class="section-title">Контакты</h2>
     <div class="contact-text-wrapper">
-      <p class="text contact__text">e-mail:</p>
-      <p class="text contact__text mail-link">info@mimimishkashop.ru</p>
-      <p class="text contact__text">адрес:</p>
-      <p class="text contact__text"> г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101 </p>
+      <p class="contact__text">e-mail:</p>
+      <p class="contact__text contact__text--mail-link">info@mimimishkashop.ru</p>
+      <p class="contact__text">адрес:</p>
+      <p class="contact__text"> г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101 </p>
     </div>
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1599229520883!5m2!1sru!2sru"
@@ -152,23 +157,53 @@
   <ul class="social-list page-footer__social-list">
     <li class="social-list__item">
       <a class="social-list__link social-list__link--instagram" href="https://www.instagram.com/htmlacademy/?hl=ru"
-          aria-label="HTML Академия в Instagram"></a>
+        aria-label="HTML Академия в Instagram"></a>
     </li>
     <li class="social-list__item">
       <a class="social-list__link social-list__link--facebook" href="https://www.facebook.com/htmlacademy/"
-          aria-label="HTML Академия в Facebook"></a>
+        aria-label="HTML Академия в Facebook"></a>
     </li>
     <li class="social-list__item">
       <a class="social-list__link social-list__link--twitter" href="https://twitter.com/htmlacademy_ru?lang=ru"
-          aria-label="HTML Академия в Twitter"></a>
+        aria-label="HTML Академия в Twitter"></a>
     </li>
   </ul>
-  <div class="copyright page-footer__copyright">
-    <p class="text copyright__text">Разработано</p>
-    <a href="https://htmlacademy.ru/intensive/htmlcss" class="copyright__logo-link">
-      <img class="copyright__logo" src="img/logo-htmlacademy.svg" alt="Логотип htmlacademy" width="110" height="40"/>
-    </a>
-  </div>
+  <a href="https://htmlacademy.ru/intensive/htmlcss" class="copyright page-footer__copyright copyright__logo-link">
+    <p class="copyright__text">Разработано</p>
+    <img class="copyright__logo" src="img/logo-htmlacademy.svg" alt="Логотип htmlacademy" width="110" height="40"/>
+  </a>
+
 </footer>
+<section class="modal">
+  <form class="modal__form" action="https://echo.htmlacademy.ru" method="post">
+    <p class="">Выберите размер:</p>
+    <div class="modal__field-checkbox-wrapper">
+      <div class="field-checkbox__input-wrap modal__field-checkbox">
+        <label class="field-checkbox__name">
+          <input class="field-checkbox__input" type="checkbox" name="S">
+          <span class="field-checkbox__name-text">S</span>
+        </label>
+      </div>
+    </div>
+    <div class="field-checkbox modal__field-checkbox">
+      <div class="field-checkbox__input-wrap">
+        <label class="field-checkbox__name">
+          <input class="field-checkbox__input" type="checkbox" name="M">
+          <span class="field-checkbox__name-text">M</span>
+        </label>
+      </div>
+    </div>
+    <div class="field-checkbox modal__field-checkbox">
+      <div class="field-checkbox__input-wrap">
+        <label class="field-checkbox__name">
+          <input class="field-checkbox__input" type="checkbox" name="L">
+          <span class="field-checkbox__name-text">L</span>
+        </label>
+      </div>
+    </div>
+    </div>
+    <a href="#" class="ghost-btn modal__ghost-btn">Сделать заказ</a>
+  </form>
+</section>
 </body>
 </html>

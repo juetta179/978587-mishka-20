@@ -1,0 +1,25 @@
+.action-list {
+  @include list;
+}
+.action-list__item {
+
+}
+.action-list__title {
+
+
+}
+
+.action-list__label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: $color-text-accent;
+  text-transform: uppercase;
+}
+
+.action-list__cost {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
